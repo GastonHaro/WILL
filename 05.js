@@ -14,7 +14,10 @@ function pluck(array, propiedad) {
   // Pista: es una buena oportunidad para usar map.
 
   // Tu código acá:
-
+    let respuesta = array.map((objetos) => {
+    return objetos[`${propiedad}`]
+  });
+    return respuesta;
 }
 
 // No modifiques nada debajo de esta linea //
